@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos Display Flex</title>
+    <style>
+      .flex {
+        max-width: 300px;D
+        padding: 10px;
+        border: 2px solid black;
+        display: flex;
+      }
+      .item {
+        background-color: aqua;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+    </div>
+  </body>
+</html>
+
+//flex-direction é a propriedade q estabelece o //eixo principal do container.
+definindo //assim a direção que os flex itens são colocados //do flex container.
+//o eixo padrão é da esquerda para direita, //mas pode ser modificado com o
+row-reverse para inverter a ordem. //tbm pode ser usado o "column" para deixar
+em coluna e o //column-reverse para inverter a ordem da coluna //flex-warp é a
+propriedade //que define se os itens devem ou nao quebrar a linha //por padrao
+eles nao quebram linhas, isso faz com //que os flex itens sejam compactados alem
+do limite do //conteudo //o padrao é o nowrap, que nao permite a quebra de linha
+//flex-wrap: wrap; //flex-flow é um atalho para as propriedades //flex-direction
+e flex-wrap //porem seu uso nao é tão comum, visto que, quando //mudamos o
+flex-direction para column, mantemos o padrão do flex-wrap que é "nowrap"

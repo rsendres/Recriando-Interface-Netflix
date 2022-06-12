@@ -1,0 +1,30 @@
+body {
+  background: #cce;
+  max-width: 900px;
+  margin: auto;
+}
+#title,
+subtitle,
+post_title {
+  color: blue;
+}
+
+post_title {
+  font-size: 16px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+post {
+  background: #fff;
+  padding: 15px 10px 5px 0; //topo, direita, baixo, esquerda
+  border: 10px solid #000;
+  margin: 10px;
+}
+ul {
+  list-style-type: square;
+  font
+}
