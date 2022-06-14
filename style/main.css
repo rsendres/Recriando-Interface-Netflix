@@ -43,7 +43,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("/Recriando-Interface-Netflix/img/capa-house.jpg");
+    url("/img/capa-nerds.jpg");
 
   height: 400px;
   background-size: cover;
